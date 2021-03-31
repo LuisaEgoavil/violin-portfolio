@@ -14,8 +14,8 @@ function App () {
   return (
     <div>
       <Header />
+      
       <Switch>
-
         <Route exact path="/" render={()=> {
           return <Home />
         }}/>
@@ -38,6 +38,7 @@ function App () {
           return <Willkommen />
         }}/>
       </Switch>
+
       <Footer />
     </div>
   )
