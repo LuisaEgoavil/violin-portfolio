@@ -37,11 +37,38 @@
   }
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
 
+body {
+  background-color: #F9D7D1;
+}
+
+.ul-nav {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .footer {
   text-align: center;
   font-weight: 500;
   font-size: 1em;
   bottom: 0
+}
+
+.kontakt-img {
+  width: 3%;
+}
+
+.kontakt-text {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.kontakt-container {
+  
 }

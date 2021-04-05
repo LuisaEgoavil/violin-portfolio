@@ -4,12 +4,14 @@ function Kontakt () {
     return (
         <div>
             <h1>Kontakt</h1>
-            <img src="/images/user.png" href="" alt=""></img>
-            <h2>Luisa Egoavil</h2>
-            <img src="/images/phone.png" href="" alt=""></img>
-            <h2>017653832422</h2>
-            <img src="/images/mail.png" href="" alt=""></img>
-            <h2>lupe.egoavil@gmail.com</h2>
+            <div className="kontakt-container">
+                <img src="/images/user.png" className="kontakt-img" href="user" alt="user"></img>
+                <h2 className="kontakt-text">Luisa Egoavil</h2><br />
+                <img src="/images/phone.png" className="kontakt-img" href="phone" alt="phone"></img>
+                <h2 className="kontakt-text">017653832422</h2><br />
+                <img src="/images/mail.png" className="kontakt-img" href="mail" alt="mail"></img>
+                <h2 className="kontakt-text">lupe.egoavil@gmail.com</h2>
+            </div>
         </div>
     )
 }
