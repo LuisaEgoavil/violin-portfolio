@@ -46,16 +46,30 @@ body {
   background-color: #F9D7D1;
 }
 
-.ul-nav {
+.name-title {
+  padding: 3%;
+  font-weight: 150;
+  font-size: 2em;
+
+}
+
+.ul-nav{
   list-style: none;
+  text-decoration: none;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
+  padding: 4% 0
+}
+.unterricht-text {
+  padding: 1%;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .footer {
   text-align: center;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 1em;
   bottom: 0
 }
@@ -69,6 +83,3 @@ body {
   vertical-align: middle;
 }
 
-.kontakt-container {
-  
-}
