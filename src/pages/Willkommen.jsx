@@ -1,8 +1,13 @@
+import Typist from 'react-typist';
+
 function Willkommen () {
     return (
-        <div>
-            <h1>Herzlich Willkommen zu meiner Seite</h1>
-        </div>
+        <Typist>
+            <div>
+                <h1>Herzlich Willkommen zu meiner Seite</h1>
+            </div>
+        </Typist>
+        
     )
 }
 

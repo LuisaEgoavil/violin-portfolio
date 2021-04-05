@@ -5,6 +5,7 @@ function Header () {
         <div>
             <nav>
                 <ul>
+                    <li><Link to="/willkommen">Willkommen</Link></li>
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/uebermich">Über mich</Link></li>
                     <li><Link to="/vita">Vita</Link></li>

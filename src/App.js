@@ -13,8 +13,10 @@ import './App.css'
 function App () {
   return (
     <div>
+      <h1>Luisa Egoavil</h1>
+      <p>Volinistin und Geigenlehrerin</p>
       <Header />
-      
+
       <Switch>
         <Route exact path="/" render={()=> {
           return <Home />
